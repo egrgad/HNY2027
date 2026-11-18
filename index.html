@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>С Новым 2027 годом!</title>
+    <meta name="description" content="Новогоднее поздравление медицинским работникам." />
+    <meta name="theme-color" content="#121629" />
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="preload" href="assets/globe-center.webp" as="image" type="image/webp" />
+    <link rel="preload" href="assets/globe-left.webp" as="image" type="image/webp" />
+    <link rel="preload" href="assets/globe-right.webp" as="image" type="image/webp" />
+    <link rel="preload" href="assets/bg-base.jpg" as="image" />
+    <style>
+      html, body { margin: 0; height: 100%; background: #121629; overflow: hidden; }
+    </style>
+    <script type="module" crossorigin src="./assets/index-ZGoxPL9i.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-QnFo_Evn.css">
+  </head>
+  <body>
+    <main id="app">
+      <div class="bg" aria-hidden="true">
+        <img class="bg__img" id="bgImg" src="assets/bg.jpg" alt="" decoding="async" />
+        <canvas class="bg__canvas" id="bgCanvas"></canvas>
+      </div>
+
+      <div class="stage stage--under" id="stageUnder">
+        <h1 class="title" id="title">
+          Коллектив компании Асклепиус, поздравляет всех<span class="title__trail">&nbsp;</span> <br class="title__br" />медицинских работников с&nbsp;Новым годом!
+        </h1>
+        <div class="ph" id="placeholders" aria-hidden="true"></div>
+      </div>
+
+      <canvas class="scene" id="scene" role="img" aria-label="Три снежных шара со скорой помощью внутри. Шар можно взять и потрясти."></canvas>
+
+      <div class="stage stage--over" id="stageOver">
+        <button class="shake" id="shakeBtn" type="button"><span>Потряси<br />шар</span></button>
+        <img class="logo" id="logo" src="./assets/logo-Db4ELJFS.svg" alt="Асклепиус" width="356" height="60" />
+      </div>
+    </main>
+  </body>
+</html>
